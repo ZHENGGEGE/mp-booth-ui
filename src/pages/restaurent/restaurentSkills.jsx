@@ -23,7 +23,6 @@ class RestaurentSkills extends Component {
   componentDidHide() {}
 
   render() {
-    const {} = this.props;
     return <View className="cuntainer">摆摊技巧页面</View>;
   }
 }

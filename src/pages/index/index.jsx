@@ -3,7 +3,7 @@
 import { AtMessage } from "taro-ui";
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
-import Makers from "./index";
+import Makers from "./makers";
 
 import "./index.scss";
 
@@ -89,9 +89,9 @@ class Index extends Component {
 
   onTap = () => {
     Taro.navigateTo({
-		  url: '/pages/restaurent/restaurent'
-		})
-  }
+      url: "/pages/restaurent/restaurent"
+    });
+  };
 
   render() {
     return (
