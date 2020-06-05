@@ -26,7 +26,12 @@ class App extends Component {
   componentDidCatchError() {}
 
   config = {
-    pages: ["pages/index/index"],
+    pages: [
+      "pages/index/index",
+      "pages/restaurent/restaurent",
+      "pages/restaurent/restaurentSkills",
+      "pages/restaurent/policyQuery"
+    ],
     window: {
       backgroundTextStyle: "light",
       navigationBarBackgroundColor: "#fff",

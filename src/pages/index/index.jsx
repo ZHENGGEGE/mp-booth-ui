@@ -16,7 +16,9 @@ class Index extends Component {
     console.log("componentWillReact");
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    console.log(this.$router);
+  }
 
   componentWillUnmount() {}
 
@@ -24,19 +26,17 @@ class Index extends Component {
 
   componentDidHide() {}
 
-  increment = () => {
-    const { counterStore } = this.props;
-    counterStore.increment();
+  // 页面跳转
+  handleGoPage = () => {
+    console.log("页面跳转");
+    Taro.navigateTo({
+      url: "/pages/restaurent/restaurent"
+    });
   };
 
-  decrement = () => {
-    const { counterStore } = this.props;
-    counterStore.decrement();
-  };
-
-  incrementAsync = () => {
-    const { counterStore } = this.props;
-    counterStore.incrementAsync();
+  // 敬请期待
+  handleWaiting = () => {
+    console.log("请等待");
   };
 
   render() {
@@ -44,6 +44,17 @@ class Index extends Component {
     return (
       <View className="cuntainer">
         <Map onClick={this.onTap} className="map" />
+        <View className="nav-wrapper">
+          <View className="nav-tab">
+            <View className="tab-item" onClick={this.handleGoPage}>
+              我要摆摊
+            </View>
+            <View className="middle-line"></View>
+            <View className="tab-item" onClick={this.handleWaiting}>
+              我要逛摊
+            </View>
+          </View>
+        </View>
       </View>
     );
   }
