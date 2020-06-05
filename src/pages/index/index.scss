@@ -26,13 +26,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    .tab-item {
-      width: 164px;
+    .tab-item-l {
+      background: url(../../assets/baitan.svg) 0px 0px no-repeat;
+      width: 184px;
       height: 34px;
       font-size: 32px;
       font-family: NotoSansHans-Regular, NotoSansHans;
       font-weight: 400;
       color: rgba(0, 0, 0, 1);
+      margin-left: 60px;
+    }
+    .tab-item-r {
+      background: url(../../assets/guangtan.svg) 0px 0px no-repeat;
+      width: 214px;
+      height: 34px;
+      font-size: 32px;
+      font-family: NotoSansHans-Regular, NotoSansHans;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 1);
+    }
+    .tab-btn {
+      margin-left: 60px;
+      width: 128px;
+      height: 32px;
+      font-size: 32px;
     }
     .middle-line {
       width: 3px;
