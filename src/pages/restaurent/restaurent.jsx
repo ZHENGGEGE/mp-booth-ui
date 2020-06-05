@@ -4,7 +4,7 @@ import { View } from "@tarojs/components";
 
 import "./index.scss";
 
-class Index extends Component {
+class Restaurent extends Component {
   // eslint-disable-next-line react/sort-comp
   config = {
     navigationBarTitleText: "地摊"
@@ -24,29 +24,10 @@ class Index extends Component {
 
   componentDidHide() {}
 
-  increment = () => {
-    const { counterStore } = this.props;
-    counterStore.increment();
-  };
-
-  decrement = () => {
-    const { counterStore } = this.props;
-    counterStore.decrement();
-  };
-
-  incrementAsync = () => {
-    const { counterStore } = this.props;
-    counterStore.incrementAsync();
-  };
-
   render() {
     const {} = this.props;
-    return (
-      <View className="cuntainer">
-        <Map onClick={this.onTap} className="map" />
-      </View>
-    );
+    return <View className="cuntainer">我要摆摊页面</View>;
   }
 }
 
-export default Index;
+export default Restaurent;
