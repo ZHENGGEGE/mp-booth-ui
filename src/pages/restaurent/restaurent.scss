@@ -1,0 +1,38 @@
+.cuntainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 130px;
+  background-color: #F7F7F7;
+  overflow: auto;
+  .flex-wrp{
+    margin: 20px 30px auto 30px; 
+  .colBody {
+    height: 140px;
+    background-color:rgba(255,255,255,1);
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.05);
+    border-radius:12px;
+    margin-bottom: 20px;
+    padding-left: 30px; 
+    padding-top: 30px;
+    .title_header{
+      height:45px;
+      font-size:32px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(0,0,0,1);
+      line-height:45px;
+    }
+    .title_descripe{
+      margin-top: 5px;
+      height:33px;
+      font-size:24px;
+      font-family:PingFangSC-Light,PingFang SC;
+      font-weight:300;
+      color:rgba(0,0,0,0.5);
+      line-height:33px;
+    }
+  }    
+  }
+}

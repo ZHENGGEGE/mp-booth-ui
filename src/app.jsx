@@ -1,7 +1,7 @@
 import Taro, { Component } from "@tarojs/taro";
 import { Provider } from "@tarojs/mobx";
 import Index from "./pages/index";
-
+import 'taro-ui/dist/style/index.scss' ;
 import counterStore from "./store/counter";
 
 import "./app.scss";
@@ -26,7 +26,11 @@ class App extends Component {
   componentDidCatchError() {}
 
   config = {
-    pages: ["pages/index/index"],
+    pages: [
+      "pages/index/index",
+      'pages/restaurent/restaurent',
+      'pages/restaurent/policyQuery'
+  ],
     window: {
       backgroundTextStyle: "light",
       navigationBarBackgroundColor: "#fff",

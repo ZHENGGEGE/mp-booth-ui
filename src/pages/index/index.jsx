@@ -39,6 +39,12 @@ class Index extends Component {
     counterStore.incrementAsync();
   };
 
+  onTap = () => {
+    Taro.navigateTo({
+		  url: '/pages/restaurent/restaurent'
+		})
+  }
+
   render() {
     const {} = this.props;
     return (

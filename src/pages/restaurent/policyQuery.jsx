@@ -1,13 +1,13 @@
 /* eslint-disable jsx-quotes */
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
-
-import "./index.scss";
+import "./policyQuery.scss";
 
 class PolicyQuery extends Component {
+  
   // eslint-disable-next-line react/sort-comp
   config = {
-    navigationBarTitleText: "地摊"
+    navigationBarTitleText: "摆摊技巧"
   };
 
   componentWillMount() {}
@@ -24,9 +24,13 @@ class PolicyQuery extends Component {
 
   componentDidHide() {}
 
+
   render() {
     const {} = this.props;
-    return <View className="cuntainer">政策查询页面</View>;
+    return <View>
+      <view>111111</view>
+      {/* <WebView src='http://www.nanjing.gov.cn/njxx/202005/t20200528_1890191.html'  /> */}
+    </View>;
   }
 }
 
