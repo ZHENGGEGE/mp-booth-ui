@@ -1,9 +1,9 @@
+// import "taro-ui/dist/style/index.scss";
 import Taro, { Component } from "@tarojs/taro";
 import { Provider } from "@tarojs/mobx";
 import Index from "./pages/index";
-import 'taro-ui/dist/style/index.scss' ;
+// import 'taro-ui/dist/style/index.scss' ;
 import counterStore from "./store/counter";
-
 import "./app.scss";
 
 // 如果需要在 h5 环境中开启 React Devtools
@@ -28,9 +28,10 @@ class App extends Component {
   config = {
     pages: [
       "pages/index/index",
-      'pages/restaurent/restaurent',
-      'pages/restaurent/policyQuery'
-  ],
+      "pages/restaurent/restaurent",
+      "pages/restaurent/restaurentSkills",
+      "pages/restaurent/policyQuery"
+    ],
     window: {
       backgroundTextStyle: "light",
       navigationBarBackgroundColor: "#fff",

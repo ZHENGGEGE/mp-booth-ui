@@ -1,7 +1,6 @@
 /* eslint-disable jsx-quotes */
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
-import "./policyQuery.scss";
 
 class PolicyQuery extends Component {
   
