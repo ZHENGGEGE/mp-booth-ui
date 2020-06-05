@@ -24,7 +24,7 @@ class Restaurent extends Component {
 
   render() {
     const {} = this.props;
-    return <View className="cuntainer">我要摆摊页面</View>;
+    return <View className="cuntainer">摆摊页面</View>;
   }
 }
 

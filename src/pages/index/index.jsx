@@ -12,7 +12,10 @@ class Index extends Component {
     this.state = {
       latitude: 35.956471, // 纬度
       longitude: 120.217853, // 经度
-      markers: Makers
+      markers: Makers,
+      showNav: true,
+      selectTitle: "",
+      selectContent: ""
     };
   }
 
@@ -62,29 +65,60 @@ class Index extends Component {
     });
   };
 
+  /**
+   * @desc marker 点击事件
+   */
+  handleMarkerClick = e => {
+    const id = e.markerId;
+    const makers = this.state.markers;
+    const selectedData = makers[id];
+    console.log(id);
+    console.log(selectedData);
+    this.setState({
+      showNav: false,
+      selectTitle: selectedData.name,
+      selectContent: selectedData.address
+    });
+  };
+
+  // 点击地图
+  handleClickMap = () => {
+    this.setState({
+      showNav: true
+    });
+  };
+
   render() {
     return (
       <View className="cuntainer">
         <Map
-          scale="18"
-          onClick={this.onTap}
+          scale="10"
+          onClick={this.handleClickMap}
           className="map"
           showLocation
           markers={this.state.markers}
           longitude={this.state.longitude}
           latitude={this.state.latitude}
+          onMarkertap={this.handleMarkerClick}
         />
-        <View className="nav-wrapper">
-          <View className="nav-tab">
-            <View className="tab-item-l" onClick={this.handleGoPage}>
-              <View className="tab-btn">我要摆摊</View>
-            </View>
-            <View className="middle-line"></View>
-            <View className="tab-item-r" onClick={this.handleWaiting}>
-              <View className="tab-btn">我要逛摊</View>
+        {this.state.showNav ? (
+          <View className="nav-wrapper">
+            <View className="nav-tab">
+              <View className="tab-item-l" onClick={this.handleGoPage}>
+                <View className="tab-btn">我要摆摊</View>
+              </View>
+              <View className="middle-line"></View>
+              <View className="tab-item-r" onClick={this.handleWaiting}>
+                <View className="tab-btn">我要逛摊</View>
+              </View>
             </View>
           </View>
-        </View>
+        ) : (
+          <View className="introduce-wrapper">
+            <View className="title">{this.state.selectTitle}</View>
+            <View className="content">{this.state.selectContent}</View>
+          </View>
+        )}
       </View>
     );
   }
