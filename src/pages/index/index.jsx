@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable jsx-quotes */
+import { AtMessage } from "taro-ui";
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
 import Makers from "./index";
@@ -21,7 +22,7 @@ class Index extends Component {
 
   // eslint-disable-next-line react/sort-comp
   config = {
-    navigationBarTitleText: "地摊"
+    navigationBarTitleText: "摆摊儿"
   };
 
   componentWillMount() {}
@@ -57,7 +58,6 @@ class Index extends Component {
   // 获取当前定位
   handleGetLocation = () => {
     Taro.getLocation().then(res => {
-      console.log(res);
       this.setState({
         latitude: res.latitude,
         longitude: res.longitude
@@ -72,7 +72,6 @@ class Index extends Component {
     const id = e.markerId;
     const makers = this.state.markers;
     const selectedData = makers[id];
-    console.log(id);
     console.log(selectedData);
     this.setState({
       showNav: false,
@@ -91,6 +90,7 @@ class Index extends Component {
   render() {
     return (
       <View className="cuntainer">
+        <AtMessage />
         <Map
           scale="10"
           onClick={this.handleClickMap}
@@ -109,7 +109,9 @@ class Index extends Component {
               </View>
               <View className="middle-line"></View>
               <View className="tab-item-r" onClick={this.handleWaiting}>
-                <View className="tab-btn">我要逛摊</View>
+                <View className="tab-btn">
+                  <AtButton onClick={this.handleWaiting}>我要逛摊</AtButton>
+                </View>
               </View>
             </View>
           </View>

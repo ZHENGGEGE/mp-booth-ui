@@ -5,7 +5,7 @@ import { View } from "@tarojs/components";
 class Restaurent extends Component {
   // eslint-disable-next-line react/sort-comp
   config = {
-    navigationBarTitleText: "地摊"
+    navigationBarTitleText: "摆摊儿"
   };
 
   componentWillMount() {}
