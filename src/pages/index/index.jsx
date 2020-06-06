@@ -13,8 +13,8 @@ class Index extends Component {
   constructor() {
     super(...arguments);
     this.state = {
-      latitude: 35.956471, // 纬度
-      longitude: 120.217853, // 经度
+      latitude: 32.033359, // 纬度
+      longitude: 118.792798, // 经度
       markers: Makers,
       showNav: true,
       selectTitle: "",

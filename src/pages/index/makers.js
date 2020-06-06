@@ -1,4 +1,5 @@
-import imgUrl from "../../assets/location.png";
+const imgUrl =
+  "https://3gimg.qq.com/lightmap/xcx/demoCenter/images/Marker1_Activated.png";
 
 export default [
   {
@@ -8,7 +9,7 @@ export default [
     id: 0, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     longitude: 118.809043,
     latitude: 32.07456,
-    width: 20, // 标注图标高度
+    width: 26, // 标注图标高度
     height: 26 // 标注图标宽度
   },
   {
@@ -273,7 +274,9 @@ export default [
     longitude: 118.779725,
     latitude: 32.111946,
     address:
-      "江苏省南京市鼓楼区中央北路与幕府东路交汇处东北(地铁3号线五塘广场站2号出口)"
+      "江苏省南京市鼓楼区中央北路与幕府东路交汇处东北(地铁3号线五塘广场站2号出口)",
+    rotate: 0,
+    alpha: 1
   },
   {
     iconPath: imgUrl,

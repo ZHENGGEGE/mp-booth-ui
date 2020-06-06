@@ -58,9 +58,9 @@ class Restaurent extends Component {
 
   goToPolicyQuery = data => {
     console.log("跳转", data);
-    Taro.navigateTo({
-      url: "/pages/restaurent/policyQuery?id=" + data
-    });
+    // Taro.navigateTo({
+    //   url: "/pages/restaurent/policyQuery?id=" + data
+    // });
   };
 
   render() {
@@ -109,7 +109,6 @@ class Restaurent extends Component {
             </view>
           )}
         </View>
-
         <AtTabBar
           fixed
           tabList={[
