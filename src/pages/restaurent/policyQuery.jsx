@@ -1,3 +1,4 @@
+/* eslint-disable react/no-danger */
 /* eslint-disable jsx-quotes */
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
@@ -5,14 +6,14 @@ import { View } from "@tarojs/components";
 class PolicyQuery extends Component {
   // eslint-disable-next-line react/sort-comp
   config = {
-    navigationBarTitleText: "摆摊技巧"
+    navigationBarTitleText: "政策查询"
   };
 
-  componentWillMount() {}
-
+  componentDidMount() {
+    console.log('拿到的参数',this.$router.params.id,document.getElementById('html'))
+    document.getElementById('html').innerHTML = `<View>${this.$router.params.id}</View>`
+  }
   componentWillReact() {}
-
-  componentDidMount() {}
 
   componentWillUnmount() {}
 
@@ -23,9 +24,10 @@ class PolicyQuery extends Component {
   render() {
     const {} = this.props;
     return (
-      <View>
-        <view>111111</view>
-        {/* <WebView src='http://www.nanjing.gov.cn/njxx/202005/t20200528_1890191.html'  /> */}
+      <View id='html'>
+        <view dangerouslySetInnerHTML={{__html:this.$router.params.id}}>
+          
+        </view>
       </View>
     );
   }

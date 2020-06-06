@@ -36,8 +36,9 @@ class Restaurent extends Component {
 
   componentDidHide() {}
 
-  handleClick(value) {
+  handleClick = value => {
     console.log(value);
+
     this.setState({
       current: value
     });
@@ -53,9 +54,17 @@ class Restaurent extends Component {
         title: "我要摆摊"
       });
     }
-  }
+  };
+
+  goToPolicyQuery = data => {
+    console.log("跳转", data);
+    Taro.navigateTo({
+      url: "/pages/restaurent/policyQuery?id=" + data
+    });
+  };
 
   render() {
+    const {} = this.props;
     console.log("列表", restaurentSkillsList);
     return (
       <View className="cuntainer">
@@ -64,7 +73,10 @@ class Restaurent extends Component {
             list.array.map(item => {
               return (
                 <View className="at-col colBody" key={item[0]}>
-                  <View className="title">
+                  <View
+                    className="title"
+                    onClick={() => this.goToPolicyQuery(item.content)}
+                  >
                     <View className="title_header">
                       {item.title.length > 20
                         ? item.title.substring(0, 20) + "..."
@@ -80,7 +92,10 @@ class Restaurent extends Component {
               {restaurentSkillsList.array.map(item => {
                 return (
                   <View className="at-col colBody" key={item[0]}>
-                    <View className="title">
+                    <View
+                      className="title"
+                      onClick={() => this.goToPolicyQuery(item.content)}
+                    >
                       <View className="title_header">
                         {item.title.length > 20
                           ? item.title.substring(0, 20) + "..."
@@ -94,13 +109,14 @@ class Restaurent extends Component {
             </view>
           )}
         </View>
+
         <AtTabBar
           fixed
           tabList={[
             { title: "政策查询", iconType: "bullet-list" },
             { title: "摆摊技巧", iconType: "folder" }
           ]}
-          onClick={this.handleClick.bind(this)}
+          onClick={this.handleClick}
           current={this.state.current}
         />
       </View>
