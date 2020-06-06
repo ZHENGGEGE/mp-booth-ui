@@ -29,7 +29,7 @@ export default [
     iconPath: imgUrl,
     id: 2, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     width: 20, // 标注图标高度
-    height: 26 // 标注图标宽度
+    height: 26 // 标注图标宽度，
   },
   {
     name: "凯瑟琳广场",

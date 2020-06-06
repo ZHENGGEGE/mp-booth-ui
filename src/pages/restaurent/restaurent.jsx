@@ -94,7 +94,6 @@ class Restaurent extends Component {
             </view>
           )}
         </View>
-
         <AtTabBar
           fixed
           tabList={[

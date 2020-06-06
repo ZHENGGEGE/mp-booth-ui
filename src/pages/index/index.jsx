@@ -4,6 +4,8 @@ import { AtMessage } from "taro-ui";
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
 import Makers from "./makers";
+import baitanPng from "../../assets/baitan.svg";
+import guangtanPng from "../../assets/guangtan.svg";
 
 import "./index.scss";
 
@@ -111,10 +113,12 @@ class Index extends Component {
           <View className="nav-wrapper">
             <View className="nav-tab">
               <View className="tab-item-l" onClick={this.handleGoPage}>
+                <Image src={baitanPng} className="imgImage" />
                 <View className="tab-btn">我要摆摊</View>
               </View>
               <View className="middle-line"></View>
               <View className="tab-item-r" onClick={this.handleWaiting}>
+                <Image src={guangtanPng} className="imgImage" />
                 <View className="tab-btn">
                   <AtButton onClick={this.handleWaiting}>我要逛摊</AtButton>
                 </View>
