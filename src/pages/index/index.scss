@@ -28,6 +28,7 @@
     justify-content: flex-start;
     .tab-item-l {
       height: 34px;
+      line-height: 34px;
       font-size: 32px;
       font-family: NotoSansHans-Regular, NotoSansHans;
       font-weight: 400;
@@ -37,6 +38,7 @@
     }
     .tab-item-r {
       margin-left: 40px;
+      line-height: 34px;
       height: 34px;
       font-size: 32px;
       font-family: NotoSansHans-Regular, NotoSansHans;
@@ -45,7 +47,7 @@
       display: flex;
     }
     .imgImage {
-      margin-top: 8px;
+      margin-top: 4px;
       width: 26px;
       height: 26px;
     }

@@ -10,8 +10,14 @@ class PolicyQuery extends Component {
   };
 
   componentDidMount() {
-    console.log('拿到的参数',this.$router.params.id,document.getElementById('html'))
-    document.getElementById('html').innerHTML = `<View>${this.$router.params.id}</View>`
+    console.log(
+      "拿到的参数",
+      this.$router.params.id
+      document.getElementById("html")
+    );
+    document.getElementById(
+      "html"
+    ).innerHTML = `<View>${this.$router.params.id}</View>`;
   }
   componentWillReact() {}
 
@@ -24,11 +30,11 @@ class PolicyQuery extends Component {
   render() {
     const {} = this.props;
     return (
-      <View id='html'>
-        <view dangerouslySetInnerHTML={{__html:this.$router.params.id}}>
-          
-        </view>
-      </View>
+      <View id="html">
+      <View
+       dangerouslySetInnerHTML={{ __html: this.$router.params.id }}
+      ></View>
+     </View>
     );
   }
 }
