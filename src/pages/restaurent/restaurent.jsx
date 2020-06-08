@@ -20,13 +20,9 @@ class Restaurent extends Component {
     navigationBarTitleText: "我要摆摊"
   };
 
-  componentWillMount() {
-    console.log(1111);
-  }
+  componentWillMount() {}
 
-  componentWillReact() {
-    console.log("componentWillReact");
-  }
+  componentWillReact() {}
 
   componentDidMount() {}
 
@@ -58,9 +54,9 @@ class Restaurent extends Component {
 
   goToPolicyQuery = data => {
     console.log("跳转", data);
-    // Taro.navigateTo({
-    //   url: "/pages/restaurent/policyQuery?id=" + data
-    // });
+    Taro.navigateTo({
+      url: "/pages/restaurent/policyQuery?id=" + data
+    });
   };
 
   render() {

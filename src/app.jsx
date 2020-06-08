@@ -35,6 +35,11 @@ class App extends Component {
       navigationBarBackgroundColor: "#fff",
       navigationBarTitleText: "WeChat",
       navigationBarTextStyle: "black"
+    },
+    permission: {
+      "scope.userLocation": {
+        desc: "你的位置信息将用于小程序地图定位效果展示"
+      }
     }
   };
 
