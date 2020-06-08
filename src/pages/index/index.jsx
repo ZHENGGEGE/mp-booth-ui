@@ -60,6 +60,7 @@ class Index extends Component {
   // 获取当前定位
   handleGetLocation = () => {
     Taro.getLocation().then(res => {
+      console.log(res);
       this.setState({
         latitude: res.latitude,
         longitude: res.longitude

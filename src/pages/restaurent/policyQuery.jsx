@@ -6,11 +6,11 @@ import { View } from "@tarojs/components";
 import WxParse from "../../components/wxParse/wxParse";
 
 class PolicyQuery extends Component {
-  constructor () {
-    super(...arguments)
+  constructor() {
+    super(...arguments);
     this.state = {
-      data: '',
-    }
+      data: ""
+    };
   }
 
   // eslint-disable-next-line react/sort-comp
@@ -32,8 +32,8 @@ class PolicyQuery extends Component {
   componentDidHide() {}
 
   render() {
-    const {data} = this.state;
-    console.log('渲染',data)
+    const { data } = this.state;
+    console.log("渲染", data);
     return (
       <View className="cuntainer">
         <import src="../../components/wxParse/wxParse.wxml" />
