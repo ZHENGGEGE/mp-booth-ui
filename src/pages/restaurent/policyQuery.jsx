@@ -2,6 +2,7 @@
 /* eslint-disable jsx-quotes */
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
+import WxParse from "../../components/wxParse/wxParse";
 
 class PolicyQuery extends Component {
   // eslint-disable-next-line react/sort-comp
@@ -10,14 +11,9 @@ class PolicyQuery extends Component {
   };
 
   componentDidMount() {
-    console.log(
-      "拿到的参数",
-      this.$router.params.id
-      // document.getElementById("html")
-    );
-    // document.getElementById(
-    //   "html"
-    // ).innerHTML = `<View>${this.$router.params.id}</View>`;
+    const article = this.$router.params.id;
+    console.log(article);
+    WxParse.wxParse("article", "html", article, this.$scope, 5);
   }
   componentWillReact() {}
 
@@ -30,10 +26,9 @@ class PolicyQuery extends Component {
   render() {
     const {} = this.props;
     return (
-      <View id="html">
-        <View
-          dangerouslySetInnerHTML={{ __html: this.$router.params.id }}
-        ></View>
+      <View className="cuntainer">
+        <import src="../../components/wxParse/wxParse.wxml" />
+        <template is="wxParse" data="{{wxParseData:article.nodes}}" />
       </View>
     );
   }

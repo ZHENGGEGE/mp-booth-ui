@@ -1,34 +1,34 @@
 {
-    "restaurentSkillsList": {
-        "array": [
-            {
-                "title": "1 临时外摆集市都在哪里？",
-                "source": "现代快报",
-                "date": "2020/6/3",
-                "url": "",
-                "short_content": "目前八九成都在商业综合体的广场",
-                "content": "<View className='at-article'><View className='at-article__h1'>1 临时外摆集市都在哪里？</View><View className='at-article__info'>2020-06-03&nbsp;&nbsp;&nbsp;现代快报</View><Image className='at-article__img' src='https://img.coolwellcloud.com/doc/viWWE0.png' mode='widthFix' /><View className='at-article__content'><View className='at-article__section'><View className='at-article__p'>5月1日，南京市城管局发布《做好防疫期间临时外摆摊点服务管理工作的指导意见》，具备外摆条件且有统一运营管理的特色街区、商业体外广场和开放式公园，可以向城管部门申请临时外摆，但需规范经营，该举措可持续到今年国庆长假结東之前。据悉，南京市城管局在现有 3400 个临时摊点的基础上，再次增加设置了 134 处 1410 个临时外摆推点。</View><View className='at-article__p'>从各区目前公布的“外摆市集”点位来看，八九成都位于商业街区和商业综合体周围的广场，比如玄武区 9 处外摆市集集中在 1912 街区、艾尚天地、凯瑟琳广场等，秦准区 13 处主要集中在新百中央商场、老门东街区、水游城等处。鼓楼区 13 处位于水木秦淮街区、金轮广场、湖北路吾悦广场等地。</View></View></View></View>"
-            },
-            {
-                "title": "2 个人可以申请临时摆推吗？",
-                "source": "现代快报",
-                "date": "2020/6/3",
-                "url": "",
-                "short_content": "目前还没有相关文件，个人想摆可以和管理方协商",
-                "content": "<View className='at-article'><View className='at-article__h1'>2 个人可以申请临时摆推吗？</View><View className='at-article__info'>2020-06-03&nbsp;&nbsp;&nbsp;现代快报</View><Image className='at-article__img' src='https://img.coolwellcloud.com/doc/yZr0AN.png' mode='widthFix' /><View className='at-article__content'><View className='at-article__section'><View className='at-article__p'>南京设置临时外摆摊点，很多人都想‘练摊走起’，那是不是意味着个人可以申请临时摆摊呢？</View><View className='at-article__p'>记者按照各区留的咨询电话，询问了各区的城管部门。玄武区城管部门表示，最近个人来咨询的特别多，从目前的临时外摆推点务管理工作的指导意见来说，选择具备外摆条件、有统一运营管理的特色街区、商业体外广场和开放式公园，来合理设置外摆区域，主要是方便商家组织商户将销售品外摆，促进消费。对于个人申请临时摆摊，目前还没有相关的文件。‘个人摆摊，可操作性相对较难，比如个人需要符合什么条件，如何申请，怎么审批，这些都需要具体的细则。’相关人员坦言。</View><View className='at-article__p'>鼓楼区城管局和建邺区城管局相关人员均表示，因为现在都是商业综合体、街区的管理单位去组织外摆，个人要想在这些区域摆摊，要和这些主体单位去协商摆放，如果同意，可以进入，接受统一管理。</View></View></View></View>"
-            }
-        ],
-        "无锡市": {},
-        "徐州市": {},
-        "常州市": {},
-        "苏州市": {},
-        "南通市": {},
-        "连云港市": {},
-        "淮安市": {},
-        "盐城市": {},
-        "扬州市": {},
-        "镇江市": {},
-        "泰州市": {},
-        "宿迁市": {}
-    }
+  "restaurentSkillsList": {
+    "array": [
+      {
+        "title": "1 临时外摆集市都在哪里？",
+        "source": "现代快报",
+        "date": "2020/6/3",
+        "url": "",
+        "short_content": "目前八九成都在商业综合体的广场",
+        "content": "<div class='at-article'><div class='at-article__h1'>1 临时外摆集市都在哪里？</div><div class='at-article__info'>2020-06-03&nbsp;&nbsp;&nbsp;现代快报</div><img class='at-article__img' src='https://img.coolwellcloud.com/doc/viWWE0.png' mode='widthFix' /><div class='at-article__content'><div class='at-article__section'><div class='at-article__p'>5月1日，南京市城管局发布《做好防疫期间临时外摆摊点服务管理工作的指导意见》，具备外摆条件且有统一运营管理的特色街区、商业体外广场和开放式公园，可以向城管部门申请临时外摆，但需规范经营，该举措可持续到今年国庆长假结東之前。据悉，南京市城管局在现有 3400 个临时摊点的基础上，再次增加设置了 134 处 1410 个临时外摆推点。</div><div class='at-article__p'>从各区目前公布的“外摆市集”点位来看，八九成都位于商业街区和商业综合体周围的广场，比如玄武区 9 处外摆市集集中在 1912 街区、艾尚天地、凯瑟琳广场等，秦准区 13 处主要集中在新百中央商场、老门东街区、水游城等处。鼓楼区 13 处位于水木秦淮街区、金轮广场、湖北路吾悦广场等地。</div></div></div></div>"
+      },
+      {
+        "title": "2 个人可以申请临时摆推吗？",
+        "source": "现代快报",
+        "date": "2020/6/3",
+        "url": "",
+        "short_content": "目前还没有相关文件，个人想摆可以和管理方协商",
+        "content": "<div class='at-article'><div class='at-article__h1'>2 个人可以申请临时摆推吗？</div><div class='at-article__info'>2020-06-03&nbsp;&nbsp;&nbsp;现代快报</div><img class='at-article__img' src='https://img.coolwellcloud.com/doc/yZr0AN.png' mode='widthFix' /><div class='at-article__content'><div class='at-article__section'><div class='at-article__p'>南京设置临时外摆摊点，很多人都想‘练摊走起’，那是不是意味着个人可以申请临时摆摊呢？</divdiv><div class='at-article__p'>记者按照各区留的咨询电话，询问了各区的城管部门。玄武区城管部门表示，最近个人来咨询的特别多，从目前的临时外摆推点务管理工作的指导意见来说，选择具备外摆条件、有统一运营管理的特色街区、商业体外广场和开放式公园，来合理设置外摆区域，主要是方便商家组织商户将销售品外摆，促进消费。对于个人申请临时摆摊，目前还没有相关的文件。‘个人摆摊，可操作性相对较难，比如个人需要符合什么条件，如何申请，怎么审批，这些都需要具体的细则。’相关人员坦言。</div><divdiv class='at-article__p'>鼓楼区城管局和建邺区城管局相关人员均表示，因为现在都是商业综合体、街区的管理单位去组织外摆，个人要想在这些区域摆摊，要和这些主体单位去协商摆放，如果同意，可以进入，接受统一管理。</div></div></div></div>"
+      }
+    ],
+    "无锡市": {},
+    "徐州市": {},
+    "常州市": {},
+    "苏州市": {},
+    "南通市": {},
+    "连云港市": {},
+    "淮安市": {},
+    "盐城市": {},
+    "扬州市": {},
+    "镇江市": {},
+    "泰州市": {},
+    "宿迁市": {}
+  }
 }

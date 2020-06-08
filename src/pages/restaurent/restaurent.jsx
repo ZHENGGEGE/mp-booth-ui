@@ -2,7 +2,7 @@
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
 import { AtTabBar } from "taro-ui";
-import { list } from "../../json/3政策资讯.json";
+import { list } from "../../json/policyAdvice.json";
 import { restaurentSkillsList } from "../../json/restaurentSkills.json";
 import "./restaurent.scss";
 
