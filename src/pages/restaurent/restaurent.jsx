@@ -1,9 +1,9 @@
 /* eslint-disable jsx-quotes */
 import Taro, { Component } from "@tarojs/taro";
-import { View,  } from "@tarojs/components";
-import { AtTabBar } from 'taro-ui'
-import {list} from '../../json/3政策资讯.json'
-import {restaurentSkillsList} from '../../json/restaurentSkills.json'
+import { View } from "@tarojs/components";
+import { AtTabBar } from "taro-ui";
+import { list } from "../../json/policyAdvice.json";
+import { restaurentSkillsList } from "../../json/restaurentSkills.json";
 import "./restaurent.scss";
 import searchUnfocus from '../../assets/searchUnfocus.png'
 import policyFocus from '../../assets/policyFocus.png'
@@ -12,25 +12,21 @@ import policyUnFocus from '../../assets/policyUnFocus.png'
 
 class Restaurent extends Component {
   // eslint-disable-next-line react/sort-comp
-  constructor () {
-    super(...arguments)
+  constructor() {
+    super(...arguments);
     this.state = {
       current: 0
-    }
+    };
   }
-  
+
   // eslint-disable-next-line react/sort-comp
   config = {
     navigationBarTitleText: "我要摆摊"
   };
 
-  componentWillMount() {
-    console.log(1111)
-  }
+  componentWillMount() {}
 
-  componentWillReact() {
-    console.log("componentWillReact");
-  }
+  componentWillReact() {}
 
   componentDidMount() {}
 
@@ -40,32 +36,32 @@ class Restaurent extends Component {
 
   componentDidHide() {}
 
-  handleClick = (value) => {
-    console.log(value)
-    
+  handleClick = value => {
+    console.log(value);
+
     this.setState({
       current: value
-    })
-    if(value === 1) {
-// eslint-disable-next-line no-undef
-    wx.setNavigationBarTitle({
-      title: '摆摊技巧'
-   })
-    }
-    if(value === 0) {
+    });
+    if (value === 1) {
       // eslint-disable-next-line no-undef
-          wx.setNavigationBarTitle({
-            title: '我要摆摊'
-         })
-          }
+      wx.setNavigationBarTitle({
+        title: "摆摊技巧"
+      });
     }
+    if (value === 0) {
+      // eslint-disable-next-line no-undef
+      wx.setNavigationBarTitle({
+        title: "我要摆摊"
+      });
+    }
+  };
 
-    goToPolicyQuery = (data)  => {
-      console.log('跳转',data)
-      Taro.navigateTo({
-        url: '/pages/restaurent/policyQuery?id='+data
-      })
-    }
+  goToPolicyQuery = data => {
+    console.log("跳转", data);
+    Taro.navigateTo({
+      url: "/pages/restaurent/policyQuery?id=" + data
+    });
+  };
 
   render() {
     const {current} = this.state;

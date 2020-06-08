@@ -4,6 +4,8 @@ import { AtMessage } from "taro-ui";
 import Taro, { Component } from "@tarojs/taro";
 import { View } from "@tarojs/components";
 import Makers from "./makers";
+import baitanPng from "../../assets/baitan.svg";
+import guangtanPng from "../../assets/guangtan.svg";
 
 import "./index.scss";
 
@@ -11,8 +13,8 @@ class Index extends Component {
   constructor() {
     super(...arguments);
     this.state = {
-      latitude: 35.956471, // 纬度
-      longitude: 120.217853, // 经度
+      latitude: 32.033359, // 纬度
+      longitude: 118.792798, // 经度
       markers: Makers,
       showNav: true,
       selectTitle: "",
@@ -111,10 +113,12 @@ class Index extends Component {
           <View className="nav-wrapper">
             <View className="nav-tab">
               <View className="tab-item-l" onClick={this.handleGoPage}>
+                <Image src={baitanPng} className="imgImage" />
                 <View className="tab-btn">我要摆摊</View>
               </View>
               <View className="middle-line"></View>
               <View className="tab-item-r" onClick={this.handleWaiting}>
+                <Image src={guangtanPng} className="imgImage" />
                 <View className="tab-btn">
                   <AtButton onClick={this.handleWaiting}>我要逛摊</AtButton>
                 </View>
