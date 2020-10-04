@@ -35,12 +35,12 @@ class App extends Component {
       navigationBarBackgroundColor: "#fff",
       navigationBarTitleText: "WeChat",
       navigationBarTextStyle: "black"
-    },
-    permission: {
-      "scope.userLocation": {
-        desc: "你的位置信息将用于小程序地图定位效果展示"
-      }
     }
+    // permission: {
+    //   "scope.userLocation": {
+    //     desc: "你的位置信息将用于小程序地图定位效果展示"
+    //   }
+    // }
   };
 
   // 在 App 类中的 render() 函数没有实际作用

@@ -20,7 +20,6 @@ class PolicyQuery extends Component {
 
   componentDidMount() {
     const article = this.$router.params.id;
-    console.log(article);
     WxParse.wxParse("article", "html", article, this.$scope, 5);
   }
   componentWillReact() {}
@@ -33,7 +32,6 @@ class PolicyQuery extends Component {
 
   render() {
     const { data } = this.state;
-    console.log("渲染", data);
     return (
       <View className="cuntainer">
         <import src="../../components/wxParse/wxParse.wxml" />

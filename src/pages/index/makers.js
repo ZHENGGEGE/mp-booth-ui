@@ -66,7 +66,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 5, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 6, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "未来城",
     longitude: 118.79942,
     latitude: 32.047521,
@@ -511,7 +511,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 49, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 50, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "矿坑公园",
     longitude: 119.038546,
     latitude: 32.041439,
@@ -521,7 +521,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 50, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 51, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "湖熟金宝商业广场",
     longitude: 118.971554,
     latitude: 31.875196,
@@ -531,7 +531,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 51, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 52, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "丹阳社区七仙广场",
     longitude: 118.720011,
     latitude: 31.636037,
@@ -541,7 +541,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 52, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 53, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "秣陵托乐嘉商业街区",
     longitude: 118.785051,
     latitude: 31.94489,
@@ -551,7 +551,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 53, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 54, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "同曦农贸市场外",
     longitude: 118.823746,
     latitude: 31.94355,
@@ -561,7 +561,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 54, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 55, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "秣陵托乐嘉商业街区",
     longitude: 118.785051,
     latitude: 31.94489,
@@ -571,7 +571,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 55, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 56, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "金王府商业街区",
     longitude: 118.822188,
     latitude: 31.949149,
@@ -581,7 +581,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 56, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 57, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "殷巷农贸市场外围",
     longitude: 118.836074,
     latitude: 31.910542,
@@ -591,7 +591,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 57, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 58, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "黄龙岘景区",
     longitude: 118.689688,
     latitude: 31.779911,
@@ -601,7 +601,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 58, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 59, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "万达广场",
     longitude: 118.843185,
     latitude: 31.951602,
@@ -611,7 +611,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 59, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 60, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "武夷广场凌云阁",
     longitude: 118.818033,
     latitude: 31.964616,
@@ -621,7 +621,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 60, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 61, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "21世纪太阳城",
     longitude: 118.824756,
     latitude: 31.92581,
@@ -631,7 +631,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 61, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 62, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "景枫广场",
     longitude: 118.820083,
     latitude: 31.929672,
@@ -641,7 +641,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 62, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 63, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "龙湖天地",
     longitude: 118.843143,
     latitude: 32.328096,
@@ -651,7 +651,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 63, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 64, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "通济街步行街",
     longitude: 119.028353,
     latitude: 31.656493,
@@ -661,7 +661,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 64, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 65, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "万达广场",
     longitude: 119.049589,
     latitude: 31.627391,
@@ -671,7 +671,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 65, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 66, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "海乐城",
     longitude: 119.025948,
     latitude: 31.656756,
@@ -681,7 +681,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 66, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 67, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "万辰广场",
     longitude: 119.023485,
     latitude: 31.658751,
@@ -691,7 +691,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 67, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 68, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "八佰伴商场",
     longitude: 118.876008,
     latitude: 31.324083,
@@ -701,7 +701,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 68, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 69, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "宝龙商场",
     longitude: 118.872763,
     latitude: 31.341027,
@@ -711,7 +711,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 69, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 70, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "中山大街步行街",
     longitude: 118.866646,
     latitude: 31.322248,
@@ -721,7 +721,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 70, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 71, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "长冲步行街",
     longitude: 118.763937,
     latitude: 32.231263,
@@ -731,7 +731,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 71, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 72, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "京新广场",
     longitude: 118.743301,
     latitude: 32.14203,
@@ -741,7 +741,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 72, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 73, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "天悦城广场",
     longitude: 118.733295,
     latitude: 32.151675,
@@ -751,7 +751,7 @@ export default [
     width: 26, // 标注图标高度
     height: 26, // 标注图标宽度
     iconPath: imgUrl,
-    id: 73, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
+    id: 74, // 标记点 id marker 点击事件回调会返回此 id。建议为每个 marker 设置上 number 类型 id，保证更新 marker 时有更好的性能。
     name: "美利广场",
     longitude: 118.74977,
     latitude: 32.242874,
