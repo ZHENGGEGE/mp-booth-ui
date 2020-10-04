@@ -14,6 +14,8 @@ taro、微信地图等
 
 微信搜“来摆摊儿”即可搜到
 
+[<img src="https://raw.githubusercontent.com/ZHENGGEGE/images/master/baitan.jpg"  width="180px" height="180px" />](线上地址)
+
 ## 运行步骤
 
 ```
